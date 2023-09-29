@@ -1,2 +1,9 @@
+# Just idea or note for project
 .idea
+
+# IDE configuration files
 .vscode
+!arduino.json
+
+# Compiled Object files
+build

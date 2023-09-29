@@ -1,0 +1,38 @@
+{
+     "version": 1,
+     "author": "Anonymous maker",
+     "editor": "wokwi",
+     "parts": [
+       { "type": "wokwi-arduino-nano", "id": "nano", "top": 24, "left": -48.5, "attrs": {} },
+       { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -209.7, "left": -61.7, "attrs": {} },
+       { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -140, "left": 117.42, "attrs": {} },
+       {
+         "type": "wokwi-led",
+         "id": "led1",
+         "top": -80.4,
+         "left": -82.6,
+         "attrs": { "color": "white" }
+       },
+       {
+         "type": "wokwi-led",
+         "id": "led2",
+         "top": -80.4,
+         "left": -34.6,
+         "attrs": { "color": "white" }
+       }
+     ],
+     "connections": [
+       [ "pir1:OUT", "nano:2", "green", [ "v19.2", "h-172.94" ] ],
+       [ "pir1:GND", "nano:GND.2", "black", [ "v28.8", "h-173.06" ] ],
+       [ "pir1:VCC", "nano:3.3V", "red", [ "v153.6", "h-172.8" ] ],
+       [ "ultrasonic1:VCC", "nano:3.3V", "red", [ "v19.2", "h-105.6", "v201.6", "h76.8" ] ],
+       [ "ultrasonic1:GND", "nano:GND.2", "black", [ "v28.8", "h37.2" ] ],
+       [ "ultrasonic1:TRIG", "nano:3", "green", [ "v38.4", "h38" ] ],
+       [ "ultrasonic1:ECHO", "nano:4", "green", [ "v48", "h18.4" ] ],
+       [ "led2:A", "nano:5", "green", [ "v19.2", "h38.4" ] ],
+       [ "led1:A", "nano:6", "green", [ "v28.8", "h86.4" ] ],
+       [ "nano:GND.2", "led2:C", "black", [ "v-28.8", "h-96" ] ],
+       [ "nano:GND.2", "led1:C", "black", [ "v-28.8", "h-144" ] ]
+     ],
+     "dependencies": {}
+   }

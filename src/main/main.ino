@@ -5,14 +5,14 @@
 #define WAITINGBATHROOM 100
 #define DISTANCEULTRASONIC 60
 
-const unsigned short int
+const uint8_t
     PIR = 2,
     TRIG = 3,
     ECHO = 4,
     KITCHEN = 5,
     BATHROOM = 6;
 
-unsigned short int
+uint8_t
     waitingKitchen,
     waitingBathroom;
 
