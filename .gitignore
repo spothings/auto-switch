@@ -1,6 +1,9 @@
 # Just idea or note for project
 .idea
 
+# Config file for Arduino
+config.h
+
 # IDE configuration files
 .vscode
 !arduino.json
