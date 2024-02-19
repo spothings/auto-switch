@@ -1,4 +1,5 @@
 void serialMonitor(String _pir, uint16_t _ultrasinic){
+  if(!SERIALMONITOR) return;
   Serial.print(_pir);
   Serial.print("\t");
   Serial.print(waitingKitchen);
