@@ -5,24 +5,20 @@
 ---
 
 ## About Project
-Spothings is an organization working on Internet of Things projects. Most of the projects is open source and some are closed source. For the source code of the project being worked on, it is published on [this GitHub Organisation](https://github.com/orgs/spothings/repositories). This is starter template for create a new project in spothings and you can free to use this template.
+This project offers a convenient solution for controlling lights or devices in the kitchen and bathroom areas using ultrasonic and passive infrared (PIR) sensors. With this setup, users can effortlessly turn lights or appliances on and off without physical contact, enhancing convenience and energy efficiency. The combination of ultrasonic and PIR sensors ensures reliable detection of movement and proximity, providing seamless operation in various scenarios. This project aims to simplify everyday tasks and improve user experience in household settings.
 
-[![Development Status](https://img.shields.io/badge/status-release-green)](https://github.com/spothings/spothings)
-![GitHub last commit](https://img.shields.io/github/last-commit/spothings/spothings)
+[![Development Status](https://img.shields.io/badge/status-release-green)](https://github.com/spothings/auto-switch)
+![GitHub last commit](https://img.shields.io/github/last-commit/spothings/auto-switch)
 
-## Feature
-- doc : used to store documents, reference, and guideline about the project.
-- flow : used to store flowchart of workflow to make it easier to understand the project.
-- img : used to store image file abaut the project. Place all of image file in here for clean project.
-- pcb : used to store schematic or PCB design file abaut the project if the project have PCB design.
-- src : used to store source code file abaut the project. This example file is `.ino`, you can use `.py` or other.
-- stl : used to store case design. File extension can use all of design file, for example: `.stl`, `.blend`, etc.
+### Simulation
+![simulation](img/simulation.gif "Simulation")
+wokwi.com: https://wokwi.com/projects/377214972432386049
 
 ## Contributor
-[![Contributors](https://contributors-img.web.app/image?repo=spothings/spothings)](https://github.com/spothings/spothings/graphs/contributors)
+[![Contributors](https://contributors-img.web.app/image?repo=spothings/spothings)](https://github.com/spothings/auto-switch/graphs/contributors)
 
 ## Donation
-If you think this project is helpful, you can make a donation. For those of you who want to make a donation, we would really appreciate it. Donations can be made through [Buy Me a Coffee](https://www.buymeacoffee.com/bukanspot) and [PayPal](https://paypal.me/bukanspot).
+If you think this project is helpful, you can make a donation. For those of you who want to make a donation, we would really appreciate it. Donations can be made through [Buy Me a Coffee](https://www.buymeacoffee.com/bukanspot) or [PayPal](https://paypal.me/bukanspot).
 
 ## Copyright
 This project is owned by [spothings](https://github.com/spothings/spothings). Copyright, Privacy Policy and License are sourced from there.
