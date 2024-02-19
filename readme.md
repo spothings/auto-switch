@@ -14,11 +14,16 @@ This project offers a convenient solution for controlling lights or devices in t
 ![simulation](img/simulation.gif "Simulation")
 wokwi.com: https://wokwi.com/projects/377214972432386049
 
-## Contributor
-[![Contributors](https://contributors-img.web.app/image?repo=spothings/spothings)](https://github.com/spothings/auto-switch/graphs/contributors)
-
-## Donation
-If you think this project is helpful, you can make a donation. For those of you who want to make a donation, we would really appreciate it. Donations can be made through [Buy Me a Coffee](https://www.buymeacoffee.com/bukanspot) or [PayPal](https://paypal.me/bukanspot).
+### Development
+- This project using Arduino Nano board.
+- Copy `config.h.example` to `config.h` and set the value.
+- Build and run using VSCode or Arduino IDE.
 
 ## Copyright
 This project is owned by [spothings](https://github.com/spothings/spothings). Copyright, Privacy Policy and License are sourced from there.
+
+### Donation
+If you think this project is helpful, you can make a donation. For those of you who want to make a donation, we would really appreciate it. Donations can be made through [Buy Me a Coffee](https://www.buymeacoffee.com/bukanspot) or [PayPal](https://paypal.me/bukanspot).
+
+### Contributor
+[![Contributors](https://contributors-img.web.app/image?repo=spothings/spothings)](https://github.com/spothings/auto-switch/graphs/contributors)
